@@ -1,0 +1,106 @@
+body {
+    background-size: cover;
+    font-family: Text Me One;
+    font-size: 1.8em;
+}
+.category {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    transition: background 1s, transform 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    background-color: steelblue;
+    border: none;
+}
+.navbar a {
+    color: white;
+}
+span.icon-bar {
+    color: white;
+}
+.category:hover {
+    transform: scale(1.1)
+}
+.category a {
+    color: white;
+    transition: transform 1s;
+}
+.category a:hover {
+    transform: rotateZ(360deg)
+}
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between
+}
+.pitch-row {
+    display: flex;
+    justify-content: space-between;
+}
+.pitch-card {
+    padding: 10px;
+    padding-top: 0;
+    border: 1px solid black;
+    box-shadow: -1px 1px 16px -1px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 1s;
+}
+.pitch-card:hover {
+    transform: scale(1.05)
+}
+.pitch-comment {
+    text-decoration: none;
+    color: steelblue
+}
+.pitch-comment:hover {
+    transform: scale(1.2)
+}
+.comment-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    display: inline-block
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.bio-btn {
+    border: none;
+    background: steelblue;
+    color: white
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-between
+}
+.extras button {
+    margin-left: 25px;
+}
+.extras .fa-thumbs-up {
+    color: crimson
+}
+.extras .fa-thumbs-down {
+    color: lime
+}
+.login-btn {
+    color: steelblue;
+}
+.profile-pic {
+    max-height: 300px;
+    max-width: 300px;
+}
